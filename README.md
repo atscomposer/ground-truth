@@ -13,18 +13,18 @@ Built for security engineers, IAM program managers, and CISOs who write security
 
 ## What this folder is
 
-|File|Purpose|Version|
+| File | Purpose | Version |
 |---|---|---|
-| identity.md | Defines who the editor is, what it reviews, and what "good" looks like | v1 & v2 |
-| rules.md | The critique methodology — the rules governing every review, including the no-rewrite rule | v2 |
-| examples.md | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v2 |
-| reference/metrics-context-checklist.md | What context each common identity metric needs to be meaningful | v1 & v2 |
-| reference/audience-calibration-guide.md | How to judge jargon and detail level against board/exec/audit/steering-committee audiences | v1 & v2 |
-| reference/risk-narrative-structure-framework.md | The Risk-Exposure-Ask structure used to diagnose structural problems | v1 & v2 |
-| reference/common-failure-patterns.md | A named catalog of recurring failure patterns (Compliance Theater Framing, Buried Lede, etc.) | v1 & v2 |
-| reference/identity-security-framework.md | A reference that grounds every risk/maturity claim in two authoritative, identity-specific benchmarks: NIST SP 800-63-3 (IAL/AAL/FAL assurance levels) and the CISA Zero Trust Maturity Model, Identity pillar (Traditional → Initial → Advanced → Optimal), with CIS Controls v8, IDSA, and ISO 27001 noted as supplementary | v1 & v2 |
-| v1/rules.md | The critique methodology — the rules governing every review, including the no-rewrite rule | v1 |
-| v1/examples.md | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v1 |
+| `identity.md` | Defines who the editor is, what it reviews, and what "good" looks like | v1 & v2 |
+| `rules.md` | The critique methodology — the rules governing every review, including the no-rewrite rule | v2 |
+| `examples.md` | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v2 |
+| `reference/metrics-context-checklist.md` | What context each common identity metric needs to be meaningful | v1 & v2 |
+| `reference/audience-calibration-guide.md` | How to judge jargon and detail level against board/exec/audit/steering-committee audiences | v1 & v2 |
+| `reference/risk-narrative-structure-framework.md` | The Risk-Exposure-Ask structure used to diagnose structural problems | v1 & v2 |
+| `reference/common-failure-patterns.md` | A named catalog of recurring failure patterns (Compliance Theater Framing, Buried Lede, etc.) | v1 & v2 |
+| `reference/identity-security-framework.md` | A reference that grounds every risk/maturity claim in two authoritative, identity-specific benchmarks: NIST SP 800-63-3 (IAL/AAL/FAL assurance levels) and the CISA Zero Trust Maturity Model, Identity pillar (Traditional → Initial → Advanced → Optimal), with CIS Controls v8, IDSA, and ISO 27001 noted as supplementary | v1 & v2 |
+| `v1/rules.md` | The critique methodology — the rules governing every review, including the no-rewrite rule | v1 |
+| `v1/examples.md` | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v1 |
 
 ---
 
@@ -33,7 +33,7 @@ Built for security engineers, IAM program managers, and CISOs who write security
 Ask which version of the editor the user would like prior to each run
 
 | Version | Purpose | When to use |
-|----|---|
+|----|---|---|
 | v1 | Older base version | Used if user says to use version 1 |
 | v2 | Improved version with best practice identification and recommendations based on idustry identity security frameworks  | default unless v1 is specified directly |
 
@@ -75,6 +75,24 @@ An editor that hands you a fixed version teaches you nothing and doesn't scale �
 ## Scope
 
 This editor reviews narrative and framing quality for identity risk communication. It does not review IAM architecture, do compliance framework mapping, or provide financial/legal risk quantification. If you paste something out of scope, it will tell you and stop rather than attempt a review it's not built for.
+
+---
+
+## The trigger
+
+The person typing **PRD** — or asking to spec out a recurring piece of work — starts the interview. Run it per `skills/prd-interview.md`. Until then, don't launch into the interview; wait for the trigger.
+
+---
+
+## Naming conventions
+
+One run produces a linked set, sharing a lowercase-hyphenated `[slug]` (e.g. `session-prep`):
+
+- `output/prd-[slug].md` — the PRD
+- `output/build-notes-[slug].md` — the freeform companion
+- `output/transcript-[slug].md` — the near-verbatim record of the person's responses
+
+The `[slug]` is the index that ties the three together.
 
 ---
 
