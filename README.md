@@ -35,7 +35,7 @@ Ask which version of the editor the user would like prior to each run
 | Version | Purpose | When to use |
 |----|---|---|
 | v1 | Older base version | Used if user says to use version 1 |
-| v2 | Improved version with best practice identification and recommendations based on idustry identity security frameworks  | default unless v1 is specified directly |
+| v2 | Improved version with best practice identification and recommendations based on idustry identity security frameworks  | **DEFAULT** unless v1 is specified directly |
 
 ---
 
