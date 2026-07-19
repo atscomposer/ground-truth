@@ -46,7 +46,7 @@ The person typing **PRD** — or asking to spec out a recurring piece of work �
 ```
 ground-truth/
 ├── CLAUDE.md          ← you are here (always loaded)
-├── identity.md        ← role card: mission, stance, guardrails
+├── identity.md        ← who and what (scope)
 ├── rules.md           ← operating rules
 ├── examples.md        ← various examples
 ├── reference/
