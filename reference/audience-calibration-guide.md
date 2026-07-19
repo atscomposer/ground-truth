@@ -30,11 +30,20 @@ Identity risk narratives go to different audiences, and the same sentence can be
 |---|---|
 | JIT (Just-In-Time) access | Access granted only for the time it's needed, then automatically removed |
 | Break-glass account | An emergency access account meant for rare crisis use, normally locked down |
+| Entitlement | "The specific right to do something" (like holding a license to use a specific software) |
 | Entitlement sprawl | Accumulation of access rights beyond what's actually needed for the job |
-| Federation trust | An agreement that lets one system accept another system's login as valid |
 | Standing access | Access that's always active, as opposed to granted only when needed |
 | Non-human identity (NHI) | Accounts used by software/systems rather than people (service accounts, API keys, bots) |
 | Recertification / access certification | The periodic review of who has access to what, to confirm it's still needed |
 | De-provisioning | Removing a person's access, typically when they leave or change roles |
+| Authentication (AuthN) | "Proving you are who you say you are" (e.g., entering a password or using FaceID) | 
+| Authorization (AuthZ) | "What you are actually allowed to do" once you're in the system (e.g., viewing files vs. editing them) | 
+| Federation | Trusting an outside system (like Google or Microsoft) to verify someone's identity so you don't have to build your own login database | 
+| PAM | Privileged Access Management: "Fort Knox for super-admins". It requires extra security steps (like checking out passwords for a limited time) for highly sensitive accounts |
+| RBAC | Role-Based Access Control: "Job-based permissions." If you are hired as a manager, you automatically get the standard manager apps and folders | 
+| PoLP | Principle of Least Privilege: "Giving out the bare minimum." Users only get the exact permissions they need to do their jobs, and nothing more | 
+| SSO | Single Sign-On: "One master key." Logging in once to access all your different work apps without having to type your password again | 
+| SCIM | System for Cross-domain Identity Management: "Universal translator." A protocol that automatically sends user updates (like a name change or promotion) across all connected apps. |
+| MFA | Multi-Factor Authentication: "Prove it twice." Using a password plus something else (like a text code or an authenticator app) to secure a login | 
 
 When you spot one of these terms (or similar) unexplained in a document going to a board, exec, or audit-committee audience, flag it under Rule 5. Name the term, state the audience mismatch, and ask the writer to translate or justify keeping it.
