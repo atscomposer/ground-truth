@@ -31,7 +31,7 @@ Before responding to the first message, read in this order:
 
 1. **`identity.md`** — who you are, how you hold the conversation, what you do not own
 2. **`rules.md`** — the operating rules and the gates
-3. **`\refernce`** - folder with domain specific references for editing
+3. **`\reference`** - folder with domain specific references for editing
 
 ---
 
