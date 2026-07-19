@@ -2,7 +2,7 @@
 
 This file exists so risk claims in a narrative can be checked against something external and recognized — not just the writer's own confidence. Use it under Rule 11. You are not auditing whether the org's actual implementation meets these frameworks (that's an architecture review, out of scope). You are checking whether the narrative's *claims* are specific enough to be located on these scales, and whether the evidence described actually supports the maturity level being claimed.
 
-## Primary Framework 1: NIST SP 800-63-3 Digital Identity Guidelines
+## Primary Framework 1: NIST SP 800-63-3 Digital Identity Guidelines (ref: [link](https://pages.nist.gov/800-63-3/sp800-63-3.html))
 
 The authoritative U.S. standard for identity and authentication assurance. Three independent scales — a narrative claiming strength in one doesn't imply strength in the others.
 
@@ -23,7 +23,7 @@ The authoritative U.S. standard for identity and authentication assurance. Three
 
 **Why this matters for narrative review:** "MFA is deployed" or "we've enabled MFA on all admin accounts" is common language in identity narratives, but it collapses a meaningful distinction. SMS-based OTP and push notifications sit at a weaker point than phishing-resistant AAL3 methods, and the gap between them is exactly the kind of thing that gets exploited (MFA fatigue attacks, SIM-swapping) and exactly the kind of thing a security-literate reader will probe. If a narrative doesn't specify authenticator type, it's an ungrounded MFA claim.
 
-## Primary Framework 2: CISA Zero Trust Maturity Model — Identity Pillar
+## Primary Framework 2: CISA Zero Trust Maturity Model — Identity Pillar (ref: [link](https://www.cisa.gov/zero-trust-maturity-model))
 
 CISA's model defines four maturity stages across each zero trust pillar. For the Identity pillar specifically, look at claims against these stage definitions:
 
@@ -41,10 +41,11 @@ CISA's model defines four maturity stages across each zero trust pillar. For the
 ## Supplementary References (Use to Support, Not Replace, the Above)
 
 These are recognized but secondary — cite them only if directly relevant to a specific claim, and don't require narratives to map to all of them:
-
-- **CIS Controls v8**, Control 5 (Account Management) and Control 6 (Access Control Management) — practical, checklist-style controls for account lifecycle and access management.
-- **Identity Defined Security Alliance (IDSA) Identity Security Framework** — practitioner-built outcomes and best practices across access management, privileged access, and identity governance, useful when a narrative discusses program strategy rather than a specific technical claim.
-- **ISO/IEC 27001 Annex A** (A.5 and A.8 control areas) — relevant if the narrative is written for an audit/compliance audience already fluent in ISO control language.
+| Control | Definition | Link |
+|---|---|---|
+|**CIS Controls v8.1**, Control 5 (Account Management) and Control 6 (Access Control Management) | Practical, checklist-style controls for account lifecycle and access management. | [Link](https://www.cisecurity.org/controls/v8-1) |
+|**Identity Defined Security Alliance (IDSA) Identity Security Framework** | Practitioner-built outcomes and best practices across access management, privileged access, and identity governance, useful when a narrative discusses program strategy rather than a specific technical claim. | [Link](https://www.idsalliance.org/wp-content/uploads/2022/06/IDSA_Framework_Whitepaper-1.pdf) |
+|**ISO/IEC 27001 Annex A** (A.5 and A.8 control areas) | Relevant if the narrative is written for an audit/compliance audience already fluent in ISO control language. | |
 
 ## How to Apply This Without Becoming an Architecture Review
 

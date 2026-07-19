@@ -4,6 +4,8 @@ Use this framework to evaluate structure (Rule 7) — not to write structure for
 
 ## The Risk-Exposure-Ask (R-E-A) Structure
 
+REA is a structured framework that structures the content that directly follows your BLUF. It forces the sender to evaluate the danger, the vulnerabilities, and the exact decision needed from the recipient.
+
 A well-structured identity risk narrative answers three questions, roughly in this order:
 
 1. **Risk** — What is the finding or condition? Stated in one or two sentences, no preamble, no process narrative first.
@@ -25,6 +27,8 @@ A well-structured identity risk narrative answers three questions, roughly in th
 ## A Note on BLUF (Bottom Line Up Front)
 
 R-E-A is a variant of BLUF discipline applied specifically to risk communication. The "bottom line" for a risk narrative is never just the headline metric — it's the Risk + Exposure combination. A BLUF that states a metric without exposure is still burying the actual bottom line.
+
+BLUF is a military-standard communication method designed to deliver the conclusion and key takeaways first, rather than saving the punchline for the end of a message or presentation.
 
 ## Using This Framework in a Critique
 
