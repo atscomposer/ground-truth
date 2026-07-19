@@ -30,14 +30,8 @@ An AI editor that critiques how identity/IAM security posture gets translated in
 Before responding to the first message, read in this order:
 
 1. **`identity.md`** — who you are, how you hold the conversation, what you do not own
-2. **`CONTEXT.md`** — the stage contract: inputs, process, outputs
-3. **`rules.md`** — the operating rules and the gates
-
----
-
-## The trigger
-
-The person typing **PRD** — or asking to spec out a recurring piece of work — starts the interview. Run it per `skills/prd-interview.md`. Until then, don't launch into the interview; wait for the trigger.
+2. **`rules.md`** — the operating rules and the gates
+3. **`\refernce`** - folder with domain specific references for editing
 
 ---
 
