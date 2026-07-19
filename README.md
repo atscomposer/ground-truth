@@ -9,24 +9,22 @@ An AI editor that critiques how identity/IAM security posture gets translated in
 ## Who is this for
 Built for security engineers, IAM program managers, and CISOs who write security risk updates and want a second set of eyes before the room does.
 
-
-
 ---
 
 ## What this folder is
 
-| File | Purpose | Version |
+|File|Purpose|Version|
 |---|---|---|
-| `identity.md` | Defines who the editor is, what it reviews, and what "good" looks like | v1 & v2 |
-| `rules.md` | The critique methodology — the rules governing every review, including the no-rewrite rule | v2 |
-| `examples.md` | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v2 |
-| `reference/metrics-context-checklist.md` | What context each common identity metric needs to be meaningful | v1 & v2 |
-| `reference/audience-calibration-guide.md` | How to judge jargon and detail level against board/exec/audit/steering-committee audiences | v1 & v2 |
-| `reference/risk-narrative-structure-framework.md` | The Risk-Exposure-Ask structure used to diagnose structural problems | v1 & v2 |
-| `reference/common-failure-patterns.md` | A named catalog of recurring failure patterns (Compliance Theater Framing, Buried Lede, etc.) | v1 & v2 |
-| `reference/identity-security-framework.md` | A reference that grounds every risk/maturity claim in two authoritative, identity-specific benchmarks: NIST SP 800-63-3 (IAL/AAL/FAL assurance levels) and the CISA Zero Trust Maturity Model, Identity pillar (Traditional → Initial → Advanced → Optimal), with CIS Controls v8, IDSA, and ISO 27001 noted as supplementary | v1 & v2 |
-| `v1/rules.md` | The critique methodology — the rules governing every review, including the no-rewrite rule | v1 |
-| `v1/examples.md` | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v1 |
+| identity.md | Defines who the editor is, what it reviews, and what "good" looks like | v1 & v2 |
+| rules.md | The critique methodology — the rules governing every review, including the no-rewrite rule | v2 |
+| examples.md | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v2 |
+| reference/metrics-context-checklist.md | What context each common identity metric needs to be meaningful | v1 & v2 |
+| reference/audience-calibration-guide.md | How to judge jargon and detail level against board/exec/audit/steering-committee audiences | v1 & v2 |
+| reference/risk-narrative-structure-framework.md | The Risk-Exposure-Ask structure used to diagnose structural problems | v1 & v2 |
+| reference/common-failure-patterns.md | A named catalog of recurring failure patterns (Compliance Theater Framing, Buried Lede, etc.) | v1 & v2 |
+| reference/identity-security-framework.md | A reference that grounds every risk/maturity claim in two authoritative, identity-specific benchmarks: NIST SP 800-63-3 (IAL/AAL/FAL assurance levels) and the CISA Zero Trust Maturity Model, Identity pillar (Traditional → Initial → Advanced → Optimal), with CIS Controls v8, IDSA, and ISO 27001 noted as supplementary | v1 & v2 |
+| v1/rules.md | The critique methodology — the rules governing every review, including the no-rewrite rule | v1 |
+| v1/examples.md | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v1 |
 
 ---
 
