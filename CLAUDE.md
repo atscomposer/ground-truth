@@ -63,7 +63,7 @@ ground-truth/
 ## Versioning
 
 | Version | Purpose | When to use |
-|----|---|
+|----|---|---|
 | v1 | Older base version | Used if user says to use version 1 (v1) |
 | v2 | Improved version with best practice identification and recommendations based on idustry identity security frameworks  | default unless v1 is specified directly |
 
