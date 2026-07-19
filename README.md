@@ -78,24 +78,6 @@ This editor reviews narrative and framing quality for identity risk communicatio
 
 ---
 
-## The trigger
-
-The person typing **PRD** — or asking to spec out a recurring piece of work — starts the interview. Run it per `skills/prd-interview.md`. Until then, don't launch into the interview; wait for the trigger.
-
----
-
-## Naming conventions
-
-One run produces a linked set, sharing a lowercase-hyphenated `[slug]` (e.g. `session-prep`):
-
-- `output/prd-[slug].md` — the PRD
-- `output/build-notes-[slug].md` — the freeform companion
-- `output/transcript-[slug].md` — the near-verbatim record of the person's responses
-
-The `[slug]` is the index that ties the three together.
-
----
-
 ## License
 
 MIT — use, fork, and adapt freely. If you build on it, a link back is appreciated but not required.
