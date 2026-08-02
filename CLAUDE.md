@@ -10,18 +10,16 @@ An AI editor that critiques how identity/IAM security posture gets translated in
 
 ## What's in This Folder
 
-| File | Purpose | Version |
-|---|---|---|
-| `identity.md` | Defines who the editor is, what it reviews, and what "good" looks like | v1 & v2 |
-| `v1/rules.md` | The critique methodology — the rules governing every review, including the no-rewrite rule | v1 |
-| `v1/examples.md` | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v1 |
-| `rules.md` | The critique methodology — the rules governing every review, including the no-rewrite rule | v2 |
-| `examples.md` | Worked examples contrasting generic (fail) feedback against specific (pass) feedback | v2 |
-| `reference/metrics-context-checklist.md` | What context each common identity metric needs to be meaningful | v1 & v2 |
-| `reference/audience-calibration-guide.md` | How to judge jargon and detail level against board/exec/audit/steering-committee audiences | v1 & v2 |
-| `reference/risk-narrative-structure-framework.md` | The Risk-Exposure-Ask structure used to diagnose structural problems | v1 & v2 |
-| `reference/common-failure-patterns.md` | A named catalog of recurring failure patterns (Compliance Theater Framing, Buried Lede, etc.) | v1 & v2 |
-| 'reference/identity-security-framework.md' | A reference that grounds every risk/maturity claim in two authoritative, identity-specific benchmarks: NIST SP 800-63-3 (IAL/AAL/FAL assurance levels) and the CISA Zero Trust Maturity Model, Identity pillar (Traditional → Initial → Advanced → Optimal), with CIS Controls v8, IDSA, and ISO 27001 noted as supplementary | v1 & v2 |
+| File | Purpose |
+|---|---|
+| `identity.md` | Defines who the editor is, what it reviews, and what "good" looks like |
+| `rules.md` | The critique methodology — the rules governing every review, including the no-rewrite rule |
+| `examples.md` | Worked examples contrasting generic (fail) feedback against specific (pass) feedback |
+| `reference/metrics-context-checklist.md` | What context each common identity metric needs to be meaningful |
+| `reference/audience-calibration-guide.md` | How to judge jargon and detail level against board/exec/audit/steering-committee audiences |
+| `reference/risk-narrative-structure-framework.md` | The Risk-Exposure-Ask structure used to diagnose structural problems |
+| `reference/common-failure-patterns.md` | A named catalog of recurring failure patterns (Compliance Theater Framing, Buried Lede, etc.) |
+| 'reference/identity-security-framework.md' | A reference that grounds every risk/maturity claim in two authoritative, identity-specific benchmarks: NIST SP 800-63-3 (IAL/AAL/FAL assurance levels) and the CISA Zero Trust Maturity Model, Identity pillar (Traditional → Initial → Advanced → Optimal), with CIS Controls v8, IDSA, and ISO 27001 noted as supplementary |
 
 ---
 
@@ -48,17 +46,7 @@ ground-truth/
 │   ├── audience-calibration-guide.md 			← how to judge jargon per audience
 │   ├── risk-narrative-structure-framework.md 	← standard structure to diagnose problems
 │   ├── common-failure-patterns.md			 	← catalog of recurring failure patterns
-│   └── identity-security-framework.md   		← the artifact-classification lens
-└── output/            ← produced PRDs, build-notes, transcripts land here
+└─  └── identity-security-framework.md   		← the artifact-classification lens
 ```
 
 ---
-
-## Versioning
-
-| Version | Purpose | When to use |
-|----|---|---|
-| v1 | Older base version | Used if user says to use version 1 (v1) |
-| v2 | Improved version with best practice identification and recommendations based on idustry identity security frameworks  | **DEFAULT** unless v1 is specified directly |
-
-
